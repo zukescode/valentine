@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="p" cx="35%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#fff7"/>
+      <stop offset="0.45" stop-color="#ffd1e6"/>
+      <stop offset="1" stop-color="#ff6fb2"/>
+    </radialGradient>
+    <radialGradient id="c" cx="35%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#fff6"/>
+      <stop offset="0.45" stop-color="#ffd24d"/>
+      <stop offset="1" stop-color="#ffb703"/>
+    </radialGradient>
+  </defs>
+
+  <g>
+    <!-- 5 petals, sakura-style -->
+    <path d="M50 16c10 0 16 10 12 19-2 5-7 9-12 10-5-1-10-5-12-10-4-9 2-19 12-19z" fill="url(#p)" transform="rotate(0 50 50)"/>
+    <path d="M50 16c10 0 16 10 12 19-2 5-7 9-12 10-5-1-10-5-12-10-4-9 2-19 12-19z" fill="url(#p)" transform="rotate(72 50 50)"/>
+    <path d="M50 16c10 0 16 10 12 19-2 5-7 9-12 10-5-1-10-5-12-10-4-9 2-19 12-19z" fill="url(#p)" transform="rotate(144 50 50)"/>
+    <path d="M50 16c10 0 16 10 12 19-2 5-7 9-12 10-5-1-10-5-12-10-4-9 2-19 12-19z" fill="url(#p)" transform="rotate(216 50 50)"/>
+    <path d="M50 16c10 0 16 10 12 19-2 5-7 9-12 10-5-1-10-5-12-10-4-9 2-19 12-19z" fill="url(#p)" transform="rotate(288 50 50)"/>
+
+    <!-- center -->
+    <circle cx="50" cy="50" r="10" fill="url(#c)"/>
+    <circle cx="46" cy="46" r="3" fill="#fff" opacity="0.35"/>
+  </g>
+</svg>

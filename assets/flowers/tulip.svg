@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7ab7"/>
+      <stop offset="1" stop-color="#ff2f83"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7de2d1"/>
+      <stop offset="1" stop-color="#3fc7b3"/>
+    </linearGradient>
+  </defs>
+
+  <g>
+    <!-- leaves -->
+    <path d="M38 78c-10-10-10-26 0-40 3 15 10 28 18 40-8 4-13 4-18 0z" fill="url(#leaf)" opacity="0.85"/>
+    <path d="M62 78c10-10 10-26 0-40-3 15-10 28-18 40 8 4 13 4 18 0z" fill="url(#leaf)" opacity="0.85"/>
+
+    <!-- tulip head -->
+    <path d="M50 16c10 8 18 18 18 32 0 16-11 28-18 32-7-4-18-16-18-32 0-14 8-24 18-32z" fill="url(#t)"/>
+    <path d="M50 18c-7 7-12 16-12 26 0 10 5 19 12 26 7-7 12-16 12-26 0-10-5-19-12-26z" fill="#ffd1e6" opacity="0.32"/>
+
+    <!-- top cuts -->
+    <path d="M32 42c7 2 12-1 18-10 6 9 11 12 18 10 0 0-2-16-18-24-16 8-18 24-18 24z" fill="#fff" opacity="0.16"/>
+  </g>
+</svg>

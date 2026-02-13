@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>Valentine? 💐</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="scene" aria-label="Valentine invitation">
+      <div class="flowers" id="flowers" aria-hidden="true"></div>
+
+      <section class="card" aria-live="polite">
+        <h1 class="title">Wu-san, will you be my Valentine? :)</h1>
+        <p class="subtitle">Be honest. I can handle it. (Probably.)</p>
+
+        <div class="buttons" id="buttons">
+          <button id="yesBtn" class="btn btn-yes" type="button">Yes</button>
+          <button id="noBtn" class="btn btn-no" type="button">No</button>
+        </div>
+
+        <div class="result" id="result" hidden>
+          <div class="resultArt" aria-hidden="true">
+            <div class="heartBlob"></div>
+            <div class="heartBlob heartBlob2"></div>
+          </div>
+          <h2 class="resultTitle">Yay! 💘</h2>
+          <p class="resultText">Best decision of the day.</p>
+        </div>
+
+        <canvas id="confetti" class="confetti" aria-hidden="true"></canvas>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
